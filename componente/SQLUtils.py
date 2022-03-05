@@ -1,6 +1,6 @@
 from componente.BuildConnection import Connection
 
-conexiune = Connection('localhost', 'root', 'Trestianr1', 'cosmeticswarehouse')
+conexiune = Connection('localhost', 'root', 'Password', 'cosmeticswarehouse')
 cursor = conexiune.getCursor()
 
 def selectAllFromOrderBy(table, orderBy, asc):
